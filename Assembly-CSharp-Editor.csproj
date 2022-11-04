@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4c915541-dc3a-da7e-55ac-930b57e65ce1}</ProjectGuid>
+    <ProjectGuid>{4787ddfa-4cd5-09d6-954e-eef73379c8ff}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -304,43 +304,43 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="websocket-sharp">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Photon3Unity3D">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -730,136 +730,136 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TestRunner">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\OpenWorldRPG\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\jjc62\OneDrive\문서\GitHub\Metaverse-Game\DefenseGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{836661c5-1073-11d2-91bb-ac35f066bb8f}</Project>
+      <Project>{3f644b2f-5fdd-600e-f117-31a839962dda}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{f2f44e8f-bc26-b0ed-1121-e8cfa1b824fb}</Project>
+      <Project>{0816eb7b-0a45-d584-d68b-ee16006c6adc}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{399ca743-9427-49ab-bab2-e6bd1797c9f8}</Project>
+      <Project>{874abbd2-ada8-36ed-df5e-35b6692dea60}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{d1665e5d-e967-af78-359c-2d5ddf93a3e6}</Project>
+      <Project>{271958be-203c-b7ab-28bf-41be72bb772d}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{a947fc7a-b644-0f14-9d78-7ce95b3c764c}</Project>
+      <Project>{92f2e4a3-e892-7631-95f6-a7550acadaa2}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{216bee1b-0a01-4992-7b36-222936579f11}</Project>
+      <Project>{14cf42dd-b1b6-4fda-5f93-8bb00c22e2e3}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{e6016815-d2db-ad60-2742-9709d9fd3e13}</Project>
+      <Project>{498e754a-130d-d57d-ab1c-318e6a72f47a}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{6123a542-d7ef-2288-fc9a-44bf86c70f32}</Project>
+      <Project>{b98f4429-2192-0a5e-1f68-7ab1567f40f0}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{109d0dc3-df5c-a62a-f18b-8730e7558e55}</Project>
+      <Project>{a307ea5a-64f0-c2cc-5a40-36b21bcfff30}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{927f155c-7923-fe68-ef82-338b698d5d20}</Project>
+      <Project>{fe2ebafa-e962-e945-c48f-f95ca8bf4874}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{1454ea7e-aa7a-d625-7a0b-f5520814465a}</Project>
+      <Project>{11fd4750-4f5e-5038-a34c-ea843cbeea10}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
   </ItemGroup>
