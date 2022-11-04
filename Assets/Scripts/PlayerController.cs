@@ -112,6 +112,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
     }
 
 
+
+
     // 공격 (Input Actions)
     void OnFire()
     {
@@ -134,11 +136,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         //소드장착시 공격모션
         else if (Equipment == "Sword")
         {
-            int AttackType = 3;
-            if (!_animator.GetCurrentAnimatorStateInfo(1).IsName("AttackType"))
-            {
-                _animator.SetInteger(_animAttack, AttackType);
-            }
+
         }
 
         //대거장착시 공격모션
