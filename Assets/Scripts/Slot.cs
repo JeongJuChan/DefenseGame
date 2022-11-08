@@ -7,7 +7,7 @@ using System;
 
 public class Slot : MonoBehaviour, IPointerUpHandler
 {
-    AnimationEventHandler _animationEventHandler;
+
     PlayerController player_status;
 
     [SerializeField]
@@ -24,20 +24,17 @@ public class Slot : MonoBehaviour, IPointerUpHandler
         player_status = GetComponentInParent<PlayerController>();
         player_status.Equipment = "1";
         _animator = player_status.GetComponentInChildren<Animator>();
-
-        _animationEventHandler = _animator.GetComponent<AnimationEventHandler>();
-        _animationEventHandler.EquipEvent += Equip;
-        _animationEventHandler.UnEquipEvent += UnEquip;
-
     }
 
 
+    //���� ������Ʈ (��ü �߰�)
     public void UpdateSlotUI()
     {
         itemIcon.sprite = item.Image;
         itemIcon.gameObject.SetActive(true);
     }
 
+    //���� �ʱ�ȭ (��ü ����)
     public void RemoveSlot()
     {
         item = null;
@@ -45,16 +42,14 @@ public class Slot : MonoBehaviour, IPointerUpHandler
     }
 
 
-    public void Equip()
+    public void OnEquip()
     {
-        Debug.Log(GetComponentInParent<Inventory>().ItemDict[item.ItemList]);
         // UI적으로 보여줄 스트립트
         GetComponentInParent<Inventory>().ItemDict[item.ItemList].SetActive(true);
     }
 
-    public void UnEquip()
+    public void OnUpEquip()
     {
-        Debug.Log(GetComponentInParent<Inventory>().ItemDict[item.ItemList]);
         // UI적으로 보여줄 스트립트
         GetComponentInParent<Inventory>().ItemDict[item.ItemList].SetActive(false);
     }
@@ -97,6 +92,9 @@ public class Slot : MonoBehaviour, IPointerUpHandler
                     _animator.SetTrigger("UnEquip");
                     Debug.Log("Dagger를 장착 해제하였습니다!");
                     player_status.Equipment = "";
+                    // UI적으로 보여줄 스트립트
+                    GetComponentInParent<Inventory>().ItemDict[item.ItemList].SetActive(false);
+                    // 실질적으로 데미지를 내려줄 스크립트 
                     player_status.IsEquip = false;
                     player_status._damage = player_status._damage - item.efts[0].value;
                 }
@@ -111,7 +109,10 @@ public class Slot : MonoBehaviour, IPointerUpHandler
                 {
                     _animator.SetTrigger("Equip");
                     Debug.Log("Sword를 장착하였습니다!");
+                    // UI적으로 보여줄 스트립트
                     player_status.Equipment = "Sword";
+                    GetComponentInParent<Inventory>().ItemDict[item.ItemList].SetActive(true);
+                    // 실질적으로 데미지를 올려줄 스크립트 
                     player_status.IsEquip = true;
                     player_status._damage = player_status._damage + item.efts[0].value;
 
@@ -127,6 +128,9 @@ public class Slot : MonoBehaviour, IPointerUpHandler
                     _animator.SetTrigger("Equip");
                     Debug.Log("Dagger를 장착하였습니다!");
                     player_status.Equipment = "Dagger";
+                    // UI적으로 보여줄 스트립트
+                    GetComponentInParent<Inventory>().ItemDict[item.ItemList].SetActive(true);
+                    // 실질적으로 데미지를 올려줄 스크립트 
                     player_status.IsEquip = true;
                     player_status._damage = player_status._damage + item.efts[0].value;
                 }

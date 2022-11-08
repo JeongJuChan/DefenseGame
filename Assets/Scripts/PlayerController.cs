@@ -112,8 +112,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
     }
 
 
-
-
     // 공격 (Input Actions)
     void OnFire()
     {
@@ -136,7 +134,11 @@ public class PlayerController : MonoBehaviourPunCallbacks
         //소드장착시 공격모션
         else if (Equipment == "Sword")
         {
-
+            int AttackType = 3;
+            if (!_animator.GetCurrentAnimatorStateInfo(1).IsName("AttackType"))
+            {
+                _animator.SetInteger(_animAttack, AttackType);
+            }
         }
 
         //대거장착시 공격모션
@@ -229,7 +231,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
         if (!Physics.Raycast(transform.position + Vector3.up * 0.9f, transform.forward, out hit, 1f))
             return;
-        // TODO 디버그 삭제
+
+        // 플레이어 데미지 처리방식 (IDamageble : 인터페이스 )
         Debug.Log("Player Attack!");
         IDamageable damageable = hit.collider.GetComponent<IDamageable>();
         if (damageable.Equals(null))
