@@ -155,8 +155,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(transform.position, _radius);
-        Gizmos.DrawRay(transform.position + Vector3.up * 0.9f, transform.forward);
+        Gizmos.DrawSphere(_playerBody.position, _radius);
+        Gizmos.DrawRay(_playerBody.position + Vector3.up * 0.9f, _playerBody.forward);
     }
 
     
@@ -227,11 +227,12 @@ public class PlayerController : MonoBehaviourPunCallbacks
         
         RaycastHit hit;
         _animator.SetInteger(_animAttack, 0);
-        Debug.DrawRay(transform.position + Vector3.up * 1.5f, transform.forward * 2);
+        Debug.DrawRay(_playerBody.position + Vector3.up * 1.5f, _playerBody.forward * 2);
 
-        if (!Physics.Raycast(transform.position + Vector3.up * 0.9f, transform.forward, out hit, 1f))
+        if (!Physics.Raycast(_playerBody.position + Vector3.up * 0.9f, _playerBody.forward, out hit, 1f))
             return;
-        // TODO 디버그 삭제
+
+        // 플레이어 데미지 처리방식 (IDamageble : 인터페이스 )
         Debug.Log("Player Attack!");
         IDamageable damageable = hit.collider.GetComponent<IDamageable>();
         if (damageable.Equals(null))

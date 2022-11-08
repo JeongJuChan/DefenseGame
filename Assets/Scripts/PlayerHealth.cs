@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : LivingEntity
+public class PlayerHealth : LivingEntity, IDamageable
 {
     [SerializeField] float blinkTimer = 1f;
     [SerializeField] float blinkTime = 0;
@@ -25,9 +25,9 @@ public class PlayerHealth : LivingEntity
         Blink();
     }
 
-    public override void Damage(int amount)
+    public void Damage(int amount)
     {
-        base.Damage(amount);
+        //base.Damage(amount);
         _isInvincible = true;
     }
     
